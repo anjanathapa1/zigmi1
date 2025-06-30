@@ -1,0 +1,59 @@
+.home-title{
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    letter-spacing: 1rem;
+}
+
+.category-title{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.category-list{
+    padding-top: 3rem;
+    gap: 1rem;
+
+    
+}
+
+.category-item{
+  
+    border: 1px solid var(--pale-blue);
+    box-shadow: 5px 5px 2px var(--mid-gray);
+    /* margin: 2rem; */
+    width: 150px;
+    background-color: var(--jean-blue);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 135px;
+    min-height: 100px;
+    
+    
+
+}
+
+.category-item a {
+    color: white; 
+    text-decoration: none;
+    font-size: 1rem;   
+}
+
+.category-item:hover{
+   /* animation: card-hover 0.5s linear 0s 1; */
+   /* animation: <animation-name> <duration(1 round complete huna lagna time)> <timing-function(linear+constant time)> <delay(immediately animation action/count  lina/gerna)> <iteration-count(show the animation repeat whent the cursore the the element) >; */
+    transition: box-shadow 0.25s linear 0s;
+    /* transition: <property name> <duration> <time-function> <delay>*/
+    box-shadow: 0px 0px;
+}
+
+/* keyframes */
+/* @keyframes card-hover{
+    from{
+        box-shadow: 5px 5px 2px var(--mid-gray);
+    }
+    to{
+        box-shadow: 0px 0px;
+    
+    }
+} */
